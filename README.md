@@ -1,0 +1,2 @@
+# AndroidStudioTemplateMine
+从java类到xml文件，包括manifest文件都有提取模板，贡献出来供大家参考使用
