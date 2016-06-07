@@ -1,0 +1,542 @@
+<templateSet group="AndroidXML">
+  <template name="xml_appNs" value="xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;" description="adds application namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+<template name="xml_android" value="xmlns:android=&quot;http://schemas.android.com/apk/res-android&quot;" description="adds application namespace" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+  <template name="xml_toolsNs" value="xmlns:tools=&quot;http://schemas.android.com/tools&quot;" description="adds tools namespace to Android xml file" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  
+  
+
+ <template name="linearlayout_v" value=" &lt;LinearLayout
+&#x000A;    android:layout_width=&quot;match_parent&quot; 
+&#x000A;    android:layout_height=&quot;match_parent&quot;  
+&#x000A;    android:orientation=&quot;vertical&quot;
+&#x000A;    android:padding=&quot;5dp&quot;
+&#x000A;    android:background=&quot;#fefefe&quot;
+&#x000A;    android:layout_margin=&quot;5dp&quot;
+&#x000A;    android:id=&quot;@+id/ll&quot;&gt;
+&#x000A;&#x000A;&lt;/LinearLayout &gt;" 
+description="android:linearlayout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="linearlayout_h" value=" &lt;LinearLayout
+&#x000A;    android:layout_width=&quot;match_parent&quot; 
+&#x000A;    android:layout_height=&quot;match_parent&quot;  
+&#x000A;    android:orientation=&quot;horizontal&quot;
+&#x000A;    android:padding=&quot;5dp&quot;
+&#x000A;    android:background=&quot;#fefefe&quot;
+&#x000A;    android:layout_margin=&quot;5dp&quot;
+&#x000A;    android:id=&quot;@+id/ll&quot;&gt;
+&#x000A;&#x000A;&lt;/LinearLayout &gt;" 
+description="android:linearlayout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+
+<template name="relativelayout" value=" &lt;RelativeLayout
+&#x000A;    android:layout_width=&quot;match_parent&quot; 
+&#x000A;    android:layout_height=&quot;match_parent&quot;  
+&#x000A;    android:padding=&quot;5dp&quot;
+&#x000A;    android:background=&quot;#fefefe&quot;
+&#x000A;    android:layout_margin=&quot;5dp&quot;
+&#x000A;    android:id=&quot;@+id/ll&quot;&gt;
+&#x000A;&#x000A;&lt;/RelativeLayout &gt;" 
+description="android:relativelayout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="textview" value=" &lt;TextView 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:gravity=&quot;center&quot;
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/tv&quot;
+&#x000A;  android:textSize=&quot;14dp&quot;
+&#x000A;  android:background=&quot;#fefefe&quot;
+&#x000A;  android:hint=&quot;content &quot;
+&#x000A;  android:textColorHint=&quot;#999999 &quot;
+&#x000A;  android:textColor=&quot;#666666 &quot;
+&#x000A;  android:text=&quot;content &quot;&gt;&lt;/TextView &gt;" 
+description="android:textview" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+<template name="edittext" value=" &lt;EditText 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:gravity=&quot;center&quot;
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:textSize=&quot;14dp&quot;
+&#x000A;  android:inputType=&quot;text&quot;
+&#x000A;  android:background=&quot;#fefefe&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/et&quot;
+&#x000A;  android:hint=&quot;content &quot;
+&#x000A;  android:textColorHint=&quot;#999999 &quot;
+&#x000A;  android:textColor=&quot;#666666 &quot;
+&#x000A;  android:text=&quot;content &quot;&gt;&lt;/EditText &gt;" 
+description="android:editText" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+ <template name="button" value=" &lt;Button 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:gravity=&quot;center&quot;
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:textSize=&quot;14dp&quot;
+&#x000A;  android:background=&quot;#fefefe&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/btn&quot;
+&#x000A;  android:text=&quot;content &quot;&gt;&lt;/Button &gt;" 
+description="android:button" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="listview" value=" &lt;ListView 
+&#x000A;  android:layout_width=&quot;match_parent&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:divider=&quot;#cccccc&quot;
+&#x000A;  android:dividerHeight=&quot;1dp&quot;
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/lv&quot;
+&#x000A;  android:background=&quot;#fefefe&quot;
+&#x000A;  android:listSelector=&quot; &quot;&gt;&lt;/ListView &gt;" 
+description="android:listView" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="imageview" value=" &lt;ImageView 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:src=&quot;@drawable/&quot;
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/iv&quot;
+&#x000A;  android:background=&quot;@drawable/ &quot;
+&#x000A;  android:scaleType=&quot;centerCrop &quot;&gt;&lt;/ImageView &gt;" 
+description="android:imageview" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+
+<template name="framelayout" value=" &lt;FrameLayout 
+&#x000A;  android:layout_width=&quot;match_parent&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/fl&quot;
+&#x000A;  android:background=&quot;#fefefe &quot;
+&#x000A;  android:gravity=&quot;center &quot;&gt;&lt;/FrameLayout &gt;" 
+description="android:framelayout" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+<template name="progressbar" value=" &lt;ProgressBar 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/pb&quot;
+&#x000A;  android:secondaryProgress=&quot;0&quot;
+&#x000A;  android:progress=&quot;0&quot;&gt;&lt;/ProgressBar &gt;" 
+description="android:progressbar" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+
+<template name="checkbox" value=" &lt;CheckBox 
+&#x000A;  android:layout_width=&quot;wrap_content&quot; 
+&#x000A;  android:layout_height=&quot;wrap_content&quot;  
+&#x000A;  android:padding=&quot;0dp&quot;
+&#x000A;  android:layout_margin=&quot;0dp&quot;
+&#x000A;  android:id=&quot;@+id/ck&quot;
+&#x000A;  android:text=&quot;content&quot;&gt;&lt;/CheckBox &gt;" 
+description="android:checkbox" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<!--创建AndroidManifest里面的-->
+<template name="metadata" value=" &lt;meta-data    android:name=&quot;&quot;  android:value=&quot;&quot; /&gt;" 
+description="android:metadata" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="service" value=" &lt;service 
+&#x000A;     android:name=&quot;&quot;
+&#x000A;     android:enabled=&quot;true&quot;
+&#x000A;     android:exported=&quot;false&quot;/&gt;" 
+description="android:service" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="activity" value=" &lt;activity 
+&#x000A;  android:name=&quot;&quot; 
+&#x000A;  android:screenOrientation=&quot;portrait&quot;  
+&#x000A;  android:windowSoftInputMode=&quot;adjustResize&quot;
+&#x000A;  android:label=&quot;activityflag&quot;/&gt;" 
+description="android:activity" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="receiver" value="&lt;receiver android:name=&quot;&quot;&gt; 
+&#x000A;    &lt;intent-filter&gt;  
+&#x000A;        &lt;action android:name=&quot;&quot;/&gt;
+&#x000A;    &lt;/intent-filter&gt;
+&#x000A;&lt;/receiver&gt;" 
+description="android:activity" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+<template name="permission" value="
+             &lt;uses-permission  android:name=&quot;android.permission.ACCESS_NETWORK_STATE&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.RECEIVE_BOOT_COMPLETED&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.MODIFY_AUDIO_SETTINGS&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.WAKE_LOCK&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.BIND_ACCESSIBILITY_SERVICE&quot;/&gt;
+
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.CAMERA&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.READ_SMS&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.RECEIVE_SMS&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.SEND_SMS&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.WRITE_SMS&quot;/&gt;
+
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.INTERNET&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.READ_PHONE_STATE&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.READ_EXTERNAL_STORAGE&quot;/&gt;
+&#x000A;     &lt;uses-permission  android:name=&quot;android.permission.BROADCAST_STICKY&quot;/&gt;" 
+description="android:service" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+
+</templateSet>

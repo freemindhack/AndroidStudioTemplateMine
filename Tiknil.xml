@@ -1,0 +1,19 @@
+<templateSet group="Tiknil">
+  <template name="def" value="    //region Inner enums&#10;    //endregion&#10;&#10;    &#10;    //region Constants&#10;    //endregion&#10;   &#10;   &#10;    //region Instance Fields&#10;    //endregion&#10;   &#10;    &#10;    //region Class methods&#10;    //endregion&#10;    &#10;    &#10;    //region Constructors / Lifecycle&#10;    //endregion&#10;    &#10;    &#10;    //region Custom accessors&#10;    //endregion&#10;    &#10;    &#10;    //region Public&#10;    //endregion &#10;    &#10;    //region Protected, without modifier&#10;    //endregion&#10;    &#10;    //region Private&#10;    //endregion&#10;&#10;    &#10;    //region Override methods and callbacks&#10;    //endregion&#10;    &#10;    //region Inner classes or interfaces&#10;    //endregion" description="Default class template" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="tag" value="private static final String TAG = $CLASS_NAME$.class.getSimpleName();" description="Class TAG field for debug" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
